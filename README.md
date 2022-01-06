@@ -11,7 +11,7 @@ Check [swagger](https://yakspirit.com/swagger) for endpoints, parameters and mor
 
 In order to execute swap transaction you need to check if user allowed to spend input tokens amount. If not, use approve endpoint and send approve tx
 
-Example of getting best path from token to token:
+Example of getting best path from token to token (amount translates into base units under the hood, so in example below we want to quote for 10 AVAX):
 
 `GET https://yakspirit.com/api/swap/quote?amount=10&fromTokenAddress=0x0000000000000000000000000000000000000000&toTokenAddress=0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7`
 

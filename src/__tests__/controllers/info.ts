@@ -20,12 +20,12 @@ describe('Info endpoint', () => {
   })
 
   it('should return list of tokens', async () => {
-    const response = await request(server).get('/info/tokens')
+    const response = await request(server).get('/api/info/tokens')
     expect(response.body).toHaveLength(tokenListLength)
   })
 
   it('should return providers list', async () => {
-    const response = await request(server).get('/info/providers')
+    const response = await request(server).get('/api/info/providers')
     expect(response.body).toHaveLength(ADDRESSES.routers.length)
   })
 })

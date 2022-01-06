@@ -6,6 +6,5 @@ import runApp from '@/helpers/runApp'
 
 void (async () => {
   // await runMongo()
-  // console.log('Mongo connected')
   await runApp()
 })()

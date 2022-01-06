@@ -20,7 +20,7 @@ describe('Approve endpoint', () => {
   })
 
   it('should return Yak Router address as spender', async () => {
-    const response = await request(server).get('/approve/spender')
+    const response = await request(server).get('/api/approve/spender')
     expect(response.body.address.toLowerCase()).toBe(
       ADDRESSES.helpers.yakRouter.toLowerCase()
     )
@@ -28,19 +28,19 @@ describe('Approve endpoint', () => {
 
   it('should return tx data for token approve', async () => {
     const response = await request(server).get(
-      `/approve/transaction?fromAddress=${WALLET_ADDRESS}&tokenAddress=${WAVAX}&amount=10`
+      `/api/approve/transaction?fromAddress=${WALLET_ADDRESS}&tokenAddress=${WAVAX}&amount=10`
     )
     expect(response.body).toMatchObject(txDataObjectWithoutValue)
   })
 
   it('should return error if query params are missing', async () => {
-    const response = await request(server).get(`/approve/transaction`)
+    const response = await request(server).get(`/api/approve/transaction`)
     expect(response.body.statusCode).toBe(400)
   })
 
   it('should return allowed to spend token amount', async () => {
     const response = await request(server).get(
-      `/approve/allowance?fromAddress=${WALLET_ADDRESS}&tokenAddress=${WAVAX}`
+      `/api/approve/allowance?fromAddress=${WALLET_ADDRESS}&tokenAddress=${WAVAX}`
     )
     expect(response.body).toHaveProperty('allowance')
   })

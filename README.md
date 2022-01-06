@@ -13,7 +13,7 @@ In order to execute swap transaction you need to check if user allowed to spend 
 
 Example of getting best path from token to token:
 
-`/swap/quote?amount=10&fromTokenAddress=0x0000000000000000000000000000000000000000&toTokenAddress=0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7`
+`/api/swap/quote?amount=10&fromTokenAddress=0x0000000000000000000000000000000000000000&toTokenAddress=0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7`
 
 Quick overview:
 
@@ -21,41 +21,42 @@ Quick overview:
 
 ### Get best path from token to token
 
-`GET /swap/quote?amount=&fromTokenAddress=&toTokenAddress=`
+`GET /api/swap/quote?amount=&fromTokenAddress=&toTokenAddress=`
 
 ### Get swap transaction for best path
 
-`GET /swap?fromAddress=&amount=&fromTokenAddress=&toTokenAddress=`
+`GET /api/swap?fromAddress=&amount=&fromTokenAddress=&toTokenAddress=`
 
 ## Info
 
 ### Get tokens list
 
-`GET /info/tokens`
+`GET /api/info/tokens`
 
 ### Get providers list
 
-`GET /info/providers`
+`GET /api/info/providers`
 
 ## Approve
 
 ### Get Yak Router address
 
-`GET /approve/spender`
+`GET /api/approve/spender`
 
 ### Get transaction for ERC20 token spend approve
 
-`GET /approve/transaction?fromAddress=&tokenAddress=&amount=`
+`GET /api/approve/transaction?fromAddress=&tokenAddress=&amount=`
 
 ### Get allowed amount to spend
 
-`GET /approve/allowance?fromAddress=&tokenAddress=`
+`GET /api/approve/allowance?fromAddress=&tokenAddress=`
 
 # Development
 
 1. Run `yarn` in the root folder
-2. Run `yarn develop`
+2. Run `yarn develop` when developing
 3. Run `yarn test` to run tests
+4. Run `yarn distribute` to run on production
 
 And you should be good to go! Feel free to fork and submit pull requests
 

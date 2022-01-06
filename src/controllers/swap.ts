@@ -36,7 +36,6 @@ export default class SwapController {
     toTokenAddress = toTokenAddress === ZERO_ADDRESS ? WAVAX : toTokenAddress
     const bigAmount = toBaseUnit(String(amount), tokenInDecimals)
 
-    console.log(amount)
     const data = await fetchPrices(
       {
         fromToken: fromTokenAddress,
@@ -94,11 +93,11 @@ export default class SwapController {
       ...bestPathOffer,
       amounts: bestPathOffer.amounts.map((amount: any, index: any) =>
         index === 0
-          ? amount.toString(10)
+          ? amount.toString()
           : amount
               .mul(10000 - slippagePercent)
               .div('10000')
-              .toString(10)
+              .toString()
       ),
     }
 

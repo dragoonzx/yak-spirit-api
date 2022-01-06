@@ -15,7 +15,7 @@ export default async function () {
   await bootstrapControllers({
     app,
     router,
-    basePath: '/',
+    basePath: '/api',
     controllers: [resolve(__dirname, '../controllers/*')],
     disableVersioning: true,
   })

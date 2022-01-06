@@ -27,7 +27,7 @@ describe('Swap endpoint', () => {
 
   it('should return best path quote object', async () => {
     const response = await request(server).get(
-      `/swap/quote?amount=10&fromTokenAddress=${AVAX}&toTokenAddress=${WAVAX}`
+      `/api/swap/quote?amount=10&fromTokenAddress=${AVAX}&toTokenAddress=${WAVAX}`
     )
     expect(Object.keys(response.body).length).toBe(
       Object.keys(bestPathObject).length
@@ -39,7 +39,7 @@ describe('Swap endpoint', () => {
 
   it('should return tx data for best path swap', async () => {
     const response = await request(server).get(
-      `/swap?amount=0.01&fromAddress=${WALLET_ADDRESS}&fromTokenAddress=${AVAX}&toTokenAddress=${WAVAX}`
+      `/api/swap?amount=0.01&fromAddress=${WALLET_ADDRESS}&fromTokenAddress=${AVAX}&toTokenAddress=${WAVAX}`
     )
 
     expect(response.body).toHaveProperty('data')
@@ -49,7 +49,7 @@ describe('Swap endpoint', () => {
 
   it('should return error if insufficient balance', async () => {
     const response = await request(server).get(
-      `/swap?amount=10000000&fromAddress=${WALLET_ADDRESS}&fromTokenAddress=${AVAX}&toTokenAddress=${WAVAX}`
+      `/api/swap?amount=10000000&fromAddress=${WALLET_ADDRESS}&fromTokenAddress=${AVAX}&toTokenAddress=${WAVAX}`
     )
 
     expect(response.body.statusCode).toBe(400)

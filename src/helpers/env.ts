@@ -1,5 +1,5 @@
 import * as dotenv from 'dotenv'
-import { cleanEnv, num, str } from 'envalid'
+import { cleanEnv, num } from 'envalid'
 import { cwd } from 'process'
 import { resolve } from 'path'
 

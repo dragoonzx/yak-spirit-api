@@ -7,7 +7,7 @@
 
 # Usage
 
-Check /swagger for endpoints, parameters and more info
+Check swagger for endpoints, parameters and more info
 
 In order to execute swap transaction you need to check if user allowed to spend input tokens amount. If not, use approve endpoint and send approve tx
 

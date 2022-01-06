@@ -1,5 +1,5 @@
-import { ethers } from 'ethers'
 import { AVALANCHE_RPC_URL } from './constants'
+import { ethers } from 'ethers'
 
 export class Provider {
   private static instance: Provider

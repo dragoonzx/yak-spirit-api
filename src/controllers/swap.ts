@@ -1,5 +1,4 @@
-import { BigNumber } from 'bignumber.js'
-import { Controller, Get, Post, Query } from 'amala'
+import { Controller, Get, Query } from 'amala'
 import { WAVAX, ZERO_ADDRESS } from '@/helpers/constants'
 import { fetchPrices } from '@/logic/getQuotes'
 import { getSwapTxData } from '@/logic/swap'

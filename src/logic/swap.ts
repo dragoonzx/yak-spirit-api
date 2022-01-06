@@ -1,10 +1,11 @@
 import { ADDRESSES, AVALANCHE_CHAIN_ID } from '@/helpers/constants'
 import { BigNumber } from 'bignumber.js'
-import { Provider } from '@/helpers/provider'
-import { Interface } from 'ethers/lib/utils'
-import { getTokenAllowanceAmount } from './approveToken'
 import { IBestPath } from '@/types'
+import { Interface } from 'ethers/lib/utils'
+import { Provider } from '@/helpers/provider'
 import { getERC20Balance } from './getERC20Balance'
+import { getTokenAllowanceAmount } from './approveToken'
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const Boom = require('@hapi/boom')
 
 type GetSwapDataProps = {

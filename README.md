@@ -1,6 +1,6 @@
 <img src="./src/assets/images/yak-spirit/yak-favicon.png" width="150" align="right" alt="" />
 
-# `🐃 Yield Yak Aggregator API`
+# 🐃 `Yield Yak Aggregator API`
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Yak Spirit](https://img.shields.io/badge/made%20by-Yak%20Spirit-success)](https://twitter.com/yak_spirit)

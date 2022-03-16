@@ -15,7 +15,7 @@
       "name": "AVAX",
       "decimals": 18,
       "permitSupported": false,
-      "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png"
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x0000000000000000000000000000000000000000.png"
     },
     {
       "chainId": 43114,
@@ -165,7 +165,7 @@
       "chainId": 43114,
       "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
       "decimals": 6,
-      "name": "USD Coin",
+      "name": "USDC.e",
       "symbol": "USDC.e",
       "logoURI": "https://raw.githubusercontent.com/ava-labs/avalanche-bridge-resources/main/tokens/USDC/logo.png"
     },
@@ -173,7 +173,7 @@
       "chainId": 43114,
       "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
       "decimals": 6,
-      "name": "Tether USD",
+      "name": "Tether USDT.e",
       "symbol": "USDT.e",
       "logoURI": "https://raw.githubusercontent.com/ava-labs/avalanche-bridge-resources/main/tokens/USDT/logo.png"
     },
@@ -351,6 +351,14 @@
       "name": "Crack.Fi",
       "symbol": "CRACK",
       "logoURI": "https://raw.githubusercontent.com/crackfi/logo/master/crackfi_png.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xd9D90f882CDdD6063959A9d837B05Cb748718A05",
+      "decimals": 18,
+      "name": "MORE",
+      "symbol": "MORE",
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xd9D90f882CDdD6063959A9d837B05Cb748718A05.png"
     },
     {
       "chainId": 43114,
@@ -543,6 +551,70 @@
       "symbol": "SHIBX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x440aBbf18c54b2782A4917b80a1746d3A2c2Cce1/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xB15f02F9Da8CD1f99E9dd375F21dc96D25ddd82C",
+      "decimals": 18,
+      "name": "HERMES",
+      "symbol": "HERMES",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0xB15f02F9Da8CD1f99E9dd375F21dc96D25ddd82C/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xfa4B6db72A650601E7Bd50a0A9f537c9E98311B2",
+      "decimals": 18,
+      "name": "HSHARE",
+      "symbol": "HSHARE",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0xfa4B6db72A650601E7Bd50a0A9f537c9E98311B2/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x721C299E6BF7D6a430d9bEA3364Ea197314bcE09",
+      "decimals": 18,
+      "name": "MilkyWay Token by SpaceSwap v2",
+      "symbol": "MILK2",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x721C299E6BF7D6a430d9bEA3364Ea197314bcE09/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xC1d02E488a9Ce2481BFdcd797d5373Dd2E70a9C2",
+      "decimals": 18,
+      "name": "SHAKE token by SpaceSwap v2",
+      "symbol": "SHAKE",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0xC1d02E488a9Ce2481BFdcd797d5373Dd2E70a9C2/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x3B55E45fD6bd7d4724F5c47E0d1bCaEdd059263e",
+      "decimals": 18,
+      "name": "Mai",
+      "symbol": "MIMATIC",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x3B55E45fD6bd7d4724F5c47E0d1bCaEdd059263e/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x026187BdbC6b751003517bcb30Ac7817D5B766f8",
+      "decimals": 18,
+      "name": "Defrost Finance H2O",
+      "symbol": "H2O",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x026187BdbC6b751003517bcb30Ac7817D5B766f8/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xbca7f1998Dc9FFB70b086543a808960a460aBcA7",
+      "decimals": 18,
+      "name": "Kitty Token",
+      "symbol": "KITTY",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0xbca7f1998Dc9FFB70b086543a808960a460aBcA7/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xF2CfC11093edB5A2DC7F49e70A3a3a9cd4F4FeE4",
+      "decimals": 18,
+      "name": "Brig Finance Token",
+      "symbol": "BRIG",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0xF2CfC11093edB5A2DC7F49e70A3a3a9cd4F4FeE4/logo.png"
     },
     {
       "address": "0x9eF758aC000a354479e538B8b2f01b917b8e89e7",
@@ -1086,7 +1158,215 @@
       "decimals": 18,
       "name": "BUX Token",
       "symbol": "BUX",
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x8cCF617Aa653463157c124229844EB688C4f2A04/logo.png"
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x8cCF617Aa653463157c124229844EB688C4f2A04.png"
+    },
+    {
+      "address": "0x346A59146b9b4a77100D369a3d18E8007A9F46a6",
+      "symbol": "AVAI",
+      "name": "AVAI",
+      "decimals": 18,
+      "permitSupported": true,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x346A59146b9b4a77100D369a3d18E8007A9F46a6.png"
+    },
+    {
+      "address": "0xcF8419A615c57511807236751c0AF38Db4ba3351",
+      "symbol": "AXIAL",
+      "name": "AXIAL",
+      "decimals": 18,
+      "permitSupported": false,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xcF8419A615c57511807236751c0AF38Db4ba3351.png"
+    },
+    {
+      "address": "0xa1144a6a1304bd9cbb16c800f7a867508726566e",
+      "symbol": "BAG",
+      "name": "BAG",
+      "decimals": 18,
+      "permitSupported": true,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xa1144a6a1304bd9cbb16c800f7a867508726566e.png"
+    },
+    {
+      "address": "0x0f34919404a290e71fc6A510cB4a6aCb8D764b24",
+      "symbol": "BLZZ",
+      "name": "BLZZ",
+      "decimals": 18,
+      "permitSupported": false,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x0f34919404a290e71fc6A510cB4a6aCb8D764b24.png"
+    },
+    {
+      "address": "0xD769bDFc0CaEe933dc0a047C7dBad2Ec42CFb3E2",
+      "symbol": "CHART",
+      "name": "CHART",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xD769bDFc0CaEe933dc0a047C7dBad2Ec42CFb3E2.png"
+    },
+    {
+      "address": "0x100Cc3a819Dd3e8573fD2E46D1E66ee866068f30",
+      "symbol": "DCAU",
+      "name": "DREGG",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x100Cc3a819Dd3e8573fD2E46D1E66ee866068f30.png"
+    },
+    {
+      "address": "0x88c090496125b751B4E3ce4d3FDB8E47DD079c57",
+      "symbol": "DREGG",
+      "name": "DREGG",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x88c090496125b751B4E3ce4d3FDB8E47DD079c57.png"
+    },
+    {
+      "address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+      "symbol": "FRAX",
+      "name": "FRAX",
+      "decimals": 18,
+      "permitSupported": true,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64.png"
+    },
+    {
+      "address": "0x62edc0692BD897D2295872a9FFCac5425011c661",
+      "symbol": "GMX",
+      "name": "GMX",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x62edc0692BD897D2295872a9FFCac5425011c661.png"
+    },
+    {
+      "address": "0x695Fa794d59106cEbd40ab5f5cA19F458c723829",
+      "symbol": "HAKU",
+      "name": "HAKU",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x695Fa794d59106cEbd40ab5f5cA19F458c723829.png"
+    },
+    {
+      "address": "0xC7f4debC8072e23fe9259A5C0398326d8EfB7f5c",
+      "symbol": "HeC",
+      "name": "HeC",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xC7f4debC8072e23fe9259A5C0398326d8EfB7f5c.png"
+    },
+    {
+      "address": "0xEd2b42D3C9c6E97e11755BB37df29B6375ede3EB",
+      "symbol": "HON",
+      "name": "HON",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xEd2b42D3C9c6E97e11755BB37df29B6375ede3EB.png"
+    },
+    {
+      "address": "0xe0Ce60AF0850bF54072635e66E79Df17082A1109",
+      "symbol": "ICE",
+      "name": "ICE",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xe0Ce60AF0850bF54072635e66E79Df17082A1109.png"
+    },
+    {
+      "address": "0xF891214fdcF9cDaa5fdC42369eE4F27F226AdaD6",
+      "symbol": "IME",
+      "name": "IME",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xF891214fdcF9cDaa5fdC42369eE4F27F226AdaD6.png"
+    },
+    {
+      "address": "0xf32398dae246C5f672B52A54e9B413dFFcAe1A44",
+      "symbol": "KACY",
+      "name": "KACY",
+      "decimals": 18,
+      "permitSupported": false,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xf32398dae246C5f672B52A54e9B413dFFcAe1A44.png"
+    },
+    {
+      "address": "0x130966628846BFd36ff31a822705796e8cb8C18D",
+      "symbol": "MIM",
+      "name": "MIM",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x130966628846BFd36ff31a822705796e8cb8C18D.png"
+    },
+    {
+      "address": "0x0f577433Bf59560Ef2a79c124E9Ff99fCa258948",
+      "symbol": "MONEY",
+      "name": "MONEY",
+      "decimals": 18,
+      "permitSupported": true,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x0f577433Bf59560Ef2a79c124E9Ff99fCa258948.png"
+    },
+    {
+      "address": "0x617724974218A18769020A70162165A539c07E8a",
+      "symbol": "OLIVE",
+      "name": "OLIVE",
+      "decimals": 18,
+      "permitSupported": false,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x617724974218A18769020A70162165A539c07E8a.png"
+    },
+    {
+      "address": "0x7b2B702706D9b361dfE3f00bD138C0CFDA7FB2Cf",
+      "symbol": "PLN",
+      "name": "PLN",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x7b2B702706D9b361dfE3f00bD138C0CFDA7FB2Cf.png"
+    },
+    {
+      "address": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+      "symbol": "sAVAX",
+      "name": "sAVAX",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE.png"
+    },
+    {
+      "address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251",
+      "symbol": "SYN",
+      "name": "SYN",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x1f1E7c893855525b303f99bDF5c3c05Be09ca251.png"
+    },
+    {
+      "address": "0x4fbf0429599460D327BD5F55625E30E4fC066095",
+      "symbol": "TSD",
+      "name": "TSD",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x4fbf0429599460D327BD5F55625E30E4fC066095.png"
+    },
+    {
+      "address": "0xf693248F96Fe03422FEa95aC0aFbBBc4a8FdD172",
+      "symbol": "TUS",
+      "name": "TUS",
+      "decimals": 18,
+      "permitSupported": false,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0xf693248F96Fe03422FEa95aC0aFbBBc4a8FdD172.png"
+    },
+    {
+      "address": "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB",
+      "name": "TUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB.png"
+    },
+    {
+      "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "permitSupported": true,
+      "logoURI": "https://raw.githubusercontent.com/ava-labs/avalanche-bridge-resources/main/tokens/USDC/logo.png"
+    },
+    {
+      "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "permitSupported": true,
+      "logoURI": "https://raw.githubusercontent.com/ava-labs/avalanche-bridge-resources/main/tokens/USDT/logo.png"
+    },
+    {
+      "address": "0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11",
+      "name": "UST",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x260Bbf5698121EB85e7a74f2E45E16Ce762EbE11.png"
+    },
+    {
+      "address": "0x57319d41F71E81F3c65F2a47CA4e001EbAFd4F33",
+      "name": "xJOE",
+      "symbol": "xJOE",
+      "decimals": 18,
+      "permitSupported": false,
+      "logoURI": "https://storage.googleapis.com/yak/tokens/0x57319d41F71E81F3c65F2a47CA4e001EbAFd4F33.png"
     }
   ]
 }

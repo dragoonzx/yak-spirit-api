@@ -1,0 +1,86 @@
+[
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "payable": false,
+    "outputs": [{ "type": "uint256", "name": "timestamp" }],
+    "name": "getCurrentBlockTimestamp",
+    "inputs": [],
+    "constant": true
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "payable": false,
+    "outputs": [
+      { "type": "uint256", "name": "blockNumber" },
+      { "type": "bytes[]", "name": "returnData" }
+    ],
+    "name": "aggregate",
+    "inputs": [
+      {
+        "type": "tuple[]",
+        "name": "calls",
+        "components": [
+          { "type": "address", "name": "target" },
+          { "type": "bytes", "name": "callData" }
+        ]
+      }
+    ],
+    "constant": false
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "payable": false,
+    "outputs": [{ "type": "bytes32", "name": "blockHash" }],
+    "name": "getLastBlockHash",
+    "inputs": [],
+    "constant": true
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "payable": false,
+    "outputs": [{ "type": "uint256", "name": "balance" }],
+    "name": "getEthBalance",
+    "inputs": [{ "type": "address", "name": "addr" }],
+    "constant": true
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "payable": false,
+    "outputs": [{ "type": "uint256", "name": "difficulty" }],
+    "name": "getCurrentBlockDifficulty",
+    "inputs": [],
+    "constant": true
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "payable": false,
+    "outputs": [{ "type": "uint256", "name": "gaslimit" }],
+    "name": "getCurrentBlockGasLimit",
+    "inputs": [],
+    "constant": true
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "payable": false,
+    "outputs": [{ "type": "address", "name": "coinbase" }],
+    "name": "getCurrentBlockCoinbase",
+    "inputs": [],
+    "constant": true
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "payable": false,
+    "outputs": [{ "type": "bytes32", "name": "blockHash" }],
+    "name": "getBlockHash",
+    "inputs": [{ "type": "uint256", "name": "blockNumber" }],
+    "constant": true
+  }
+]

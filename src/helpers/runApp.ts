@@ -30,6 +30,7 @@ export default async function () {
       routePrefix: '/swagger', // host at /swagger instead of default /docs
       swaggerOptions: {
         url: '/api/docs', // example path to json
+        basePath: '/api',
       },
     })
   )

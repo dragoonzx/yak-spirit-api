@@ -11,7 +11,7 @@ const Boom = require('@hapi/boom')
 
 const defaultTokenDecimals = 18
 
-@Controller('/swap')
+@Controller('/api/swap')
 export default class SwapController {
   @Get('/quote')
   async getBestPathOffer(

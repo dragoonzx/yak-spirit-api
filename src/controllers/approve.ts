@@ -7,7 +7,7 @@ import {
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const Boom = require('@hapi/boom')
 
-@Controller('/approve')
+@Controller('/api/approve')
 export default class ApproveController {
   @Get('/spender')
   getYakRouter() {

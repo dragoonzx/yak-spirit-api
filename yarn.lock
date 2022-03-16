@@ -5256,15 +5256,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koa2-swagger-ui@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "koa2-swagger-ui@npm:5.3.0"
+"koa2-swagger-ui@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "koa2-swagger-ui@npm:5.5.0"
   dependencies:
     "@types/koa": ^2.13.4
     handlebars: ^4.7.7
     lodash: ^4.17.21
     read-pkg-up: ^7.0.1
-  checksum: 20dc0212488af0a59ac68e30aa29ae585cb3660aa8b724abeb6fb60f013af9e70623480f59c9aa32862d545f7e5ef1e48d2c2a7394620dd53cc1c55005d362ed
+  checksum: f9cfbdd9210eb286db7319d0153e853fe00b00e866ae79e21606e0dcc96d0e464502430d6d099277442d5becd39128053e82834454c0e48a4f7403ba1b701099
   languageName: node
   linkType: hard
 
@@ -7798,7 +7798,7 @@ __metadata:
     koa-better-error-handler: ^7.0.1
     koa-bodyparser: ^4.3.0
     koa-router: ^10.1.1
-    koa2-swagger-ui: ^5.3.0
+    koa2-swagger-ui: ^5.5.0
     lodash: ^4.17.21
     module-alias: ^2.2.2
     mongodb-memory-server: ^8.0.3

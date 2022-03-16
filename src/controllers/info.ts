@@ -2,7 +2,7 @@ import { ADDRESSES } from '@/helpers/constants'
 import { Controller, Get } from 'amala'
 import tokenList from '@/assets/tokenlist/defi.tokenlist.json'
 
-@Controller('/info')
+@Controller('/api/info')
 export default class InfoController {
   @Get('/tokens')
   getTokensList() {
